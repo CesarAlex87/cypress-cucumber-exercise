@@ -1,1 +1,8 @@
-{}
+{   
+    "baseUrl": "https://www.demoblaze.com#",
+    "headerUrls": {
+        "home": "/index.html",
+        "cart": "/cart.html"
+      },
+    "testFiles": "**/*feature"
+}

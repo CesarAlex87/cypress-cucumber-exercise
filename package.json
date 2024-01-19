@@ -1,10 +1,15 @@
 {
   "name": "cypress-cucumber-exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "cypress proyect with cucumber implementation for demoblaze.com website testing",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "gui": "npx cypress open",
+    "smoke": "cypress run --env TAGS=\"@smoke\"",
+    "regression": "cypress run --env TAGS=\"@regression\"",
+    "full-regression": "cypress run --env TAGS=\"@regression or @complete-purchase\"",
+    "sanity": "cypress run --env TAGS=\"@sanity\"",
+    "all": "cypress run --env TAGS=\"@all\""
   },
   "keywords": [],
   "author": "",
@@ -12,5 +17,8 @@
   "devDependencies": {
     "cypress": "^9.7.0",
     "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }

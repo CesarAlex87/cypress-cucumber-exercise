@@ -1,0 +1,36 @@
+{
+    "users": {
+      "user1": {
+        "name": "John Doe",
+        "country": "United States",
+        "city": "New York",
+        "creditCard": "1234 5678 9012 3456",
+        "month": "12",
+        "year": "2024"
+      },
+      "user2": {
+        "name": "Alice Smith",
+        "country": "Canada",
+        "city": "Toronto",
+        "creditCard": "9876 5432 1098 7654",
+        "month": "10",
+        "year": "2023"
+      },
+        "user3": {
+            "name": "Bob Brown",
+            "country": "Australia",
+            "city": "Sydney",
+            "creditCard": "4567 8901 2345 6789",
+            "month": "01",
+            "year": "2022"
+        },
+        "user4": {
+            "name": "Jane Jones",
+            "country": "United Kingdom",
+            "city": "London",
+            "creditCard": "7890 1234 5678 9012",
+            "month": "03",
+            "year": "2021"
+        }
+    }
+  }
